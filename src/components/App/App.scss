@@ -1,0 +1,20 @@
+.container-app {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.block {
+  width: 350px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 0 10px #929597; 
+  background: #fefefe;
+  padding: 10px;
+  &-title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #929597;
+  }
+}

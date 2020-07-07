@@ -1,0 +1,29 @@
+.comments-item {
+  display: flex;
+  margin-bottom: 10px;
+  .color {
+    width: 40px;
+  }
+}
+
+.form-add-comment {
+  display: flex;
+  .color {
+    margin-right: 10px;
+    width: 40px;
+    flex-shrink: 0;
+    height: 38px;
+  }
+  .color-text {
+    margin-right: 10px;
+    max-width: 164px;
+  }
+  .btn {
+    width: 100px;
+    flex-shrink: 0;
+  }
+}
+
+.comment-value {
+  margin-left: 10px;
+}

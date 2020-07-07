@@ -1,0 +1,11 @@
+.form-add-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.new-todo {
+  width: 100%;
+  margin-right: 10px;
+  padding-left: 10px;
+  max-width: calc(100% - 103px);
+}
